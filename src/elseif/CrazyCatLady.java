@@ -15,11 +15,11 @@ String response=JOptionPane.showInputDialog("How many cats do you have?");
 int num0=Integer.parseInt(response);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
 if(num0>3) {
-Syso ("YOU CRAZY CAT HORDER!!!!!!!!!");
+	JOptionPane.showInputDialog(null, "YOU CRAZY CAT HORDER!!!!!!!!!");
 }
 
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-
+if(num0<3) {
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
 		
 	
@@ -30,11 +30,11 @@ Syso ("YOU CRAZY CAT HORDER!!!!!!!!!");
 		
 	}
 
-	static void playVideo(String videoURL) {
+	static void playVideo(String https://www.youtube.com/watch?v=LyKpzSm3MIE) {
 		try {
-			URI uri = new URI(videoURL);
+			URI uri = new URI(https://www.youtube.com/watch?v=LyKpzSm3MIE);
 			java.awt.Desktop.getDesktop().browse(uri);
-		} catch (Exception e) {
+		 catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
